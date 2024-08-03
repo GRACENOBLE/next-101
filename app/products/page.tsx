@@ -8,7 +8,7 @@ const page = async () => {
     .then((res) => res.json())
     .then((res) => res.products);
 
-  //console.log(data[0]);
+  console.log(data);
 
   return (
     <div className="flex flex-wrap justify-between gap-10 mt-10">
