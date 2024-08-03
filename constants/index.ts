@@ -1,7 +1,7 @@
 const FOOD_OPTIONS = {
   method: "GET",
   headers: {
-    "x-rapidapi-key": process.env.FOOD_API_KEY,
+    "x-rapidapi-key": process.env.FOOD_API_KEY!,
     "x-rapidapi-host": "tasty.p.rapidapi.com",
   },
 };
